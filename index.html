@@ -16,10 +16,11 @@
         
         if (android != -1) {
             console.log(userAgent)
-            text.innerHTML = userAgent.toString(); 
+            text.innerHTML = "It is Android"; 
             /* window.location = "https://play.google.com/store/apps/details?id=com.dawonindustries.dawon&hl=es&gl=US" */
         }else {
-            document.createElement("Lo sentimos, Aun no tenemos una App disponible para tu Plataforma")
+            text.innerHTML = "It is not Android"; 
+
         }
     </script>
 </body>
