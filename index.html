@@ -15,11 +15,10 @@
         let text = document.getElementById("Description")
         
         if (android != -1) {
-            console.log(userAgent)
-            text.innerHTML = "It is Android"; 
-            /* window.location = "https://play.google.com/store/apps/details?id=com.dawonindustries.dawon&hl=es&gl=US" */
+
+            window.location = "https://play.google.com/store/apps/details?id=com.dawonindustries.dawon&hl=es&gl=US"
         }else {
-            text.innerHTML = "It is not Android"; 
+            text.innerHTML = "Lo sentimos no hay apps disponible para este dispositivo"; 
 
         }
     </script>
