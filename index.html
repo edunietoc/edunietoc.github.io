@@ -6,12 +6,17 @@
     <title>Dawon Redirect</title>
 </head>
 <body>
+    <section>
+        <h1 id="Description"></h1>
+    </section>
     <script>
         let userAgent = navigator.userAgent.toLowerCase();
         let android = userAgent.indexOf("android")
-
-        if (android) {
+        let text = document.getElementById("Description")
+        
+        if (android != -1) {
             console.log(userAgent)
+            text.innerHTML = userAgent.toString(); 
             /* window.location = "https://play.google.com/store/apps/details?id=com.dawonindustries.dawon&hl=es&gl=US" */
         }else {
             document.createElement("Lo sentimos, Aun no tenemos una App disponible para tu Plataforma")
