@@ -11,7 +11,8 @@
         let android = userAgent.indexOf("android")
 
         if (android) {
-            window.location = "https://play.google.com/store/apps/details?id=com.dawonindustries.dawon&hl=es&gl=US"
+            console.log(userAgent)
+            /* window.location = "https://play.google.com/store/apps/details?id=com.dawonindustries.dawon&hl=es&gl=US" */
         }else {
             document.createElement("Lo sentimos, Aun no tenemos una App disponible para tu Plataforma")
         }
