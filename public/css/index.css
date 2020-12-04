@@ -281,3 +281,26 @@ main {
   font-size: 1.5rem;
   margin: 1rem 1rem;
 }
+
+
+@media (max-width: 600px) {
+
+  .Navbar__name{
+    font-size: 1.8rem;
+  }
+
+  .Navbar__container--item{
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .Projects{
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+
+  .Projects__Card{
+    width: 15rem;
+    height: 20rem;
+  }
+}
