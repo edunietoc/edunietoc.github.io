@@ -1,0 +1,25 @@
+{
+  "name": "edunietoc.github.io",
+  "version": "1.0.0",
+  "description": "##This is for my personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edunietoc/edunietoc.github.io.git"
+  },
+  "keywords": [],
+  "author": "Eduardo <eduardoandres.nieto@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edunietoc/edunietoc.github.io/issues"
+  },
+  "homepage": "https://github.com/edunietoc/edunietoc.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0"
+  }
+}

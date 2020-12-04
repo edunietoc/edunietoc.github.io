@@ -1,0 +1,131 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+  width: 100vw;
+}
+.Navbar {
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+}
+
+.Navbar__name {
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+
+.Navbar__container {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 1rem;
+}
+
+.Navbar__container--item {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+main {
+  height: 100vh;
+}
+
+.Description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.Description--title {
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+.Description--image {
+  border-radius: 20rem;
+}
+
+.Description--image img {
+  width: 100px;
+  border: solid 3px black;
+  border-radius: 20rem;
+}
+
+.Description--text {
+  margin: 1rem;
+  padding: 1rem 5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.Projects__Container h2 {
+  font-size: 2.5rem;
+  margin-left: 4rem;
+}
+
+.Projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 20rem));
+  justify-content: center;
+  gap: 1rem;
+}
+
+.Projects__Card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 15rem;
+  height: 20rem;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+}
+
+.Projects__Card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Projects__Card--Icon {
+  height: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.Projects__Card--Icon img {
+  width: 48px;
+}
+
+.Projects__Card--Description {
+  font-size: 1.5rem;
+  height: 30%;
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  background-color: #fafafa;
+}
+
+.footer {
+  display: flex;
+  height: 1rem;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer__container--item {
+  list-style: none;
+  font-size: 1.5rem;
+  margin: 1rem 1rem;
+}
