@@ -17,10 +17,11 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   justify-content: space-between;
   font-family: 'Roboto', sans-serif;
+  height: 6rem;
 }
 
 .Navbar__name {
-  font-size: 2rem;
+  font-size: 2.4rem;
   margin-left: 2rem;
 }
 
@@ -32,8 +33,9 @@ body {
 }
 
 .Navbar__container--item {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-right: 1rem;
+  font-weight: 700;
 }
 
 main {
@@ -53,8 +55,9 @@ main {
 }
 
 .Description--title {
-  font-size: 3rem;
+  font-size: 5rem;
   margin: 1rem;
+  text-align: center;
 }
 
 .Description--image {
@@ -63,7 +66,7 @@ main {
   height: 20rem;
   background-size: cover;
   border-radius: 50%;
-  border: 5px solid black;
+  border: 5px solid #eeeeee;
 }
 
 .Description--image img {
@@ -76,11 +79,11 @@ main {
   padding: 1rem 5rem;
   font-size: 2rem;
   text-align: center;
+  text-align: center;
 }
 
 
 .Projects__Container{
-  padding: 3rem 0;
   width: 80vw;
   display: flex;
   flex-direction: column;
@@ -90,8 +93,7 @@ main {
 }
 
 .Projects__Container h2 {
-  font-size: 2.5rem;
-  margin-left: 4rem;
+  font-size: 3rem;
   color: #393e46;
   align-self: flex-start;
   
@@ -165,28 +167,31 @@ main {
 
   padding-top: 5rem;
   padding-bottom: 5rem;
-  height: 50rem;
   width: 80vw;
   margin: 0 auto;
 }
 
 .Contact__Container{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   height: 100%;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .Contact h2 {
-  font-size: 2.5rem;
-  margin-left: 4rem;
+  font-size: 3rem;
+  color: #393e46;
+  align-self: flex-start;
 }
 
 .Contact__Social{
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
   justify-content: center;
   height: 100%;
+  margin: 2rem 0rem;
 }
 
 .Contact__Link{
@@ -196,16 +201,18 @@ main {
 
 .Contact__Link a{
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: black;
+  margin: 2rem 0;
+  padding-left: 0rem;
+  padding-right: 2rem;
 }
 
 .Contact__Card{
-  background-color: #393e46;
+  background-color: #eeeeee;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 4rem 3rem;
   border-radius: 10px;
-  height: 30rem;
   width: 35rem;
 }
 
@@ -217,14 +224,14 @@ main {
   transition: 0.3s;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: flex-start;
   height: 100%;
 
 }
 
 .Contact__Form input{
-  border: 2px solid #9EA3A2;
+  border: 2px solid #fafafa;
   border-radius: 10px;
   height: 3rem;
   width: 100%;
@@ -233,8 +240,8 @@ main {
 .Contact__Form label{
   margin-top: 1rem;
   margin-bottom:0.5rem ;
-  color: #ffd369;
-  font-size: 1.2rem;
+  color: #393e46;
+  font-size: 2rem;
 }
 
 .Contact__Form textarea{
@@ -252,9 +259,10 @@ main {
   border: none;
   border-radius: 20px;
   height: 5rem;
-  background-color: #ffd369;
+  background-color: #393e46;
   color: #eeeeee;
   font-weight: 700;
+  font-size: 2rem;
 }
 
 
