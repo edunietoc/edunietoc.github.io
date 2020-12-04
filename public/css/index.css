@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 html {
   font-size: 62.5%;
+  
 }
 
 body {
@@ -7,11 +10,13 @@ body {
   padding: 0;
   font-family: "Bai Jamjuree", sans-serif;
   width: 100vw;
+  
 }
 .Navbar {
   display: flex;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
 }
 
 .Navbar__name {
@@ -33,6 +38,7 @@ body {
 
 main {
   height: 100vh;
+
 }
 
 .Description {
@@ -40,8 +46,10 @@ main {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  width: 80vw;
+  margin: 0 auto;
 }
 
 .Description--title {
@@ -50,13 +58,17 @@ main {
 }
 
 .Description--image {
-  border-radius: 20rem;
+  background-image: url('../assets//images/Mepic.jpg');
+  width: 20rem;
+  height: 20rem;
+  background-size: cover;
+  border-radius: 50%;
+  border: 5px solid black;
 }
 
 .Description--image img {
-  width: 100px;
-  border: solid 3px black;
-  border-radius: 20rem;
+  width: 100%;
+  object-fit: cover;
 }
 
 .Description--text {
@@ -66,28 +78,48 @@ main {
   text-align: center;
 }
 
+
+.Projects__Container{
+  padding: 3rem 0;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
 .Projects__Container h2 {
   font-size: 2.5rem;
   margin-left: 4rem;
+  color: #393e46;
+  align-self: flex-start;
+  
 }
+
+
 
 .Projects {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(16rem, 20rem));
   justify-content: center;
   gap: 1rem;
+  width: 80vw;
+ 
 }
 
-.Projects__Card {
+.Projects__Card{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 15rem;
-  height: 20rem;
+  background-color: #fafafa;
+  width: 18rem;
+  height: 25rem;
   transition: 0.3s;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   justify-self: center;
+  border-radius: 10px;
 }
 
 .Projects__Card:hover {
@@ -105,14 +137,126 @@ main {
 }
 
 .Projects__Card--Description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   font-size: 1.5rem;
   height: 30%;
   box-sizing: border-box;
   width: 100%;
   padding-left: 1rem;
   padding-top: 1rem;
-  background-color: #fafafa;
+  background-color: #393e46;
+  border-radius: 0px 0px 10px 10px;
+
 }
+
+.Projects__Card--Description span{
+  font-size: 1.5rem;
+  color: #eeeeee;
+}
+
+.Projects__Card--Description p{
+  font-size: 1.2rem;
+  color: #ffd369;
+}
+
+.Contact{
+
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  height: 50rem;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.Contact__Container{
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  align-items: center;
+}
+
+.Contact h2 {
+  font-size: 2.5rem;
+  margin-left: 4rem;
+}
+
+.Contact__Social{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.Contact__Link{
+  display: flex;
+  align-items: center;
+}
+
+.Contact__Link a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.Contact__Card{
+  background-color: #393e46;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 4rem 3rem;
+  border-radius: 10px;
+  height: 30rem;
+  width: 35rem;
+}
+
+.Contact__Card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Contact__Form{
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 100%;
+
+}
+
+.Contact__Form input{
+  border: 2px solid #9EA3A2;
+  border-radius: 10px;
+  height: 3rem;
+  width: 100%;
+}
+
+.Contact__Form label{
+  margin-top: 1rem;
+  margin-bottom:0.5rem ;
+  color: #ffd369;
+  font-size: 1.2rem;
+}
+
+.Contact__Form textarea{
+  border: 2px solid #9EA3A2;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 8rem;
+
+}
+
+.Contact__Form button{
+  width: 100%;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 20px;
+  height: 5rem;
+  background-color: #ffd369;
+  color: #eeeeee;
+  font-weight: 700;
+}
+
 
 .footer {
   display: flex;
