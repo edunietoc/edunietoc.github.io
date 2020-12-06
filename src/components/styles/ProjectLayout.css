@@ -1,0 +1,26 @@
+.Projects__Container{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Projects__Container h2 {
+    font-size: 3rem;
+    color: #9EA3A2;
+    align-self: flex-start;
+    
+  }
+  
+
+  .Projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 20rem));
+    justify-content: center;
+    gap: 2rem 1rem;
+    width: 80vw;
+   
+  }
+  

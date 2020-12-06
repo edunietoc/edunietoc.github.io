@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&display=swap');
+html {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Baloo 2', cursive;
+  width: 100vw;
+}
+
+.Modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Modal__container {
+  position: relative;
+  top: 10rem;
+  background-color: #fafafa;
+  padding: 3rem 5rem;
+  width: 80vw;
+  height: 70vh;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Modal__container h1 {
+  color: #9EA3A2;
+  color: #ffd369;
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.Modal__container h3 {
+  color: #ffd369;
+  color: #9EA3A2;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.Modal__container p {
+  font-size: 1.5rem;
+}
+
+.Modal__container a {
+  text-decoration: none;
+  color: #393e46;
+}
+
+.Modal__Image-Container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.Modal__Image-Container--item {
+  height: auto;
+  width: 20rem;
+  margin: 0 1rem;
+}
+
+.Modal__Image-Container img {
+  width: 100%;
+}
+
+.Modal__close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  background-color: #393e46;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 0 10px 0 5px;
+}
+
+.Modal__Link-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Modal__Link-Container--item {
+  display: flex;
+  align-items: center;
+}
+
+.Modal__Link-Container--item a {
+  margin: 1rem 2rem;
+  font-size: 2rem;
+  color: #393e46;
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 2rem 0;
+  padding-left: 0rem;
+  padding-right: 2rem;
+}
+
+.Contact__Link {
+  display: flex;
+  align-items: center;
+}
+
+.Contact__Link a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+  margin: 2rem 0;
+  padding-left: 0rem;
+  padding-right: 2rem;
+}

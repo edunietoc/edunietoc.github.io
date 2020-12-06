@@ -1,0 +1,48 @@
+{
+    "ProjectList": [
+        {
+            "id": 1,
+            "projectName": "DawonApp",
+            "hashtagList": "#Flutter #Mobile #Android/iOS",
+            "icon": "src/components/assets/icons/flutter.png",
+            "description": "A simple flutter app",
+            "youtube_link": "./",
+            "github_link": "./",
+            "images": [
+                "src/components/assets/images/DawonApp1.jpeg",
+                "src/components/assets/images/DawonApp2.jpeg",
+                "src/components/assets/images/DawonApp3.jpeg"
+            ]
+        },
+        {
+            "id": 2,
+            "projectName": "Dawon Device",
+            "hashtagList": "#Arduino #Hardware #C++",
+            "icon": "src/components/assets/icons/arduino.png"
+        },
+        {
+            "id": 3,
+            "projectName": "Instagram Scrapper",
+            "hashtagList": "#Python #BS4",
+            "icon": "src/components/assets/icons/python.png"
+        },
+        {
+            "id": 4,
+            "projectName": "Solar Tracker",
+            "hashtagList": "#Arduino #Hardware #C++",
+            "icon": "src/components/assets/icons/arduino.png"
+        },
+        {
+            "id": 5,
+            "projectName": "Arduino Dashboard",
+            "hashtagList": "#Python #Flask #Arduino",
+            "icon": "src/components/assets/icons/python.png"
+        },
+        {
+            "id": 6,
+            "projectName": "Led RGB Lamp",
+            "hashtagList": "#Arduino #Flutter #IoT",
+            "icon": "src/components/assets/icons/flutter.png"
+        }
+    ]
+}

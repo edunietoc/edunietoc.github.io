@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 html {
   font-size: 62.5%;
   
@@ -8,10 +7,12 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Bai Jamjuree", sans-serif;
+  font-family: 'Baloo 2', cursive;
   width: 100vw;
   
 }
+
+
 .Navbar {
   display: flex;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -23,6 +24,7 @@ body {
 .Navbar__name {
   font-size: 2.4rem;
   margin-left: 2rem;
+  color: #393e46;
 }
 
 .Navbar__container {
@@ -36,6 +38,7 @@ body {
   font-size: 2rem;
   margin-right: 1rem;
   font-weight: 700;
+  color: #393e46;
 }
 
 main {
@@ -58,6 +61,7 @@ main {
   font-size: 5rem;
   margin: 1rem;
   text-align: center;
+  color: #393e46;
 }
 
 .Description--image {
@@ -80,6 +84,7 @@ main {
   font-size: 2rem;
   text-align: center;
   text-align: center;
+  color: #393e46;
 }
 
 
@@ -292,6 +297,10 @@ main {
   .Navbar__container--item{
     font-size: 1.8rem;
     text-align: center;
+  }
+
+  .Description{
+    width: 100%;
   }
 
   .Projects{

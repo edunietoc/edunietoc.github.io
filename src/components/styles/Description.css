@@ -1,0 +1,62 @@
+
+main {
+    height: 100vh;
+  
+  }
+  
+  .Description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 80vw;
+    margin: 0 auto;
+  }
+  
+  .Description--title {
+    font-size: 5rem;
+    margin: 1rem;
+    text-align: center;
+    color: #9EA3A2;
+    font-weight: 700;
+  }
+
+  .Description--title span{
+    font-size: 5rem;
+    color: #ffd369;
+    font-weight: 700;
+  }
+  
+  
+  .Description--image {
+    background-image: url('../assets//images/Mepic.jpg');
+    width: 20rem;
+    height: 20rem;
+    background-size: cover;
+    border-radius: 50%;
+    border: 5px solid #eeeeee;
+  
+  }
+  
+  .Description--image img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .Description--text {
+    margin: 1rem;
+    padding: 1rem 5rem;
+    font-size: 2rem;
+    text-align: center;
+    text-align: center;
+    width: 70%;
+  }
+
+  .Description--text span{
+    font-size: 2.4rem;
+    color: #ffd369;
+    font-weight: 700;
+  }
+  

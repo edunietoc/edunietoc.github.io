@@ -1,0 +1,15 @@
+.Modal__Link-Container--item {
+    display: flex;
+    align-items: center;
+}
+
+.Modal__Link-Container--item a {
+    margin: 1rem 2rem;
+    font-size: 2rem;
+    color: #393e46;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 2rem 0;
+    padding-left: 0rem;
+    padding-right: 2rem;
+}

@@ -1,0 +1,9 @@
+.Modal__Image-Container--item {
+    height: auto;
+    width: 20rem;
+    margin: 0 1rem;
+}
+
+.Modal__Image-Container img {
+    width: 100%;
+}
