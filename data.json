@@ -4,13 +4,13 @@
             "id": 1,
             "projectName": "DawonApp",
             "hashtagList": "#Flutter #Mobile #Android/iOS",
-            "icon": "src/components/assets/icons/flutter.png",
-            "description": "A simple flutter app",
+            "icon": "../src/components/assets/icons/flutter.png",
+            "description": "A simple flutter aspp",
             "youtube_link": "./",
             "github_link": "./",
             "images": [
-                "src/components/assets/images/DawonApp1.jpeg",
-                "src/components/assets/images/DawonApp2.jpeg",
+                "../src/components/assets/images/DawonApp1.jpeg",
+                "../src/components/assets/images/DawonApp2.jpeg",
                 "src/components/assets/images/DawonApp3.jpeg"
             ]
         },
