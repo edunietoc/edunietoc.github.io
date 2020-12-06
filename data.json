@@ -4,7 +4,7 @@
             "id": 1,
             "projectName": "DawonApp",
             "hashtagList": "#Flutter #Mobile #Android/iOS",
-            "icon": "../src/components/assets/icons/flutter.png",
+            "icon": "./src/components/assets/icons/flutter.png",
             "description": "A simple flutter aspp",
             "youtube_link": "./",
             "github_link": "./",
