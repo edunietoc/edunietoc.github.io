@@ -12,7 +12,9 @@ const ContactForm = () => {
 
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
+    const [email, setEmail] = useState('');
     const [status, setStatus] = useState(0);
+    const [name, setName] = useState('');
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -21,7 +23,7 @@ const ContactForm = () => {
             message: message
         });
 
-        js_send(subject, message);
+        js_send(subject, message, email, name);
 
         console.log("Submitted");
     }
@@ -43,7 +45,7 @@ const ContactForm = () => {
     }
 
 
-    const js_send = (subject, message) => {
+    const js_send = (subject, message, email, name) => {
 
         const request = new XMLHttpRequest();
         request.onreadystatechange = function () {
@@ -55,7 +57,7 @@ const ContactForm = () => {
                 }
         };
 
-
+        message = message.concat(message, `\n\n\rContact:\n${email} \n${name}`);
         data_js['subject'] = subject;
         data_js['text'] = message;
 
@@ -103,6 +105,10 @@ const ContactForm = () => {
         <form className="Contact__Form">
             <label className="Contact__Form--label" >Subject</label>
             <input onChange={(e) => setSubject(e.target.value)} type="text" name="subject" />
+            <label className="Contact__Form--label" >Name</label>
+            <input onChange={(e) => setName(e.target.value)} type="text" name="name" />
+            <label className="Contact__Form--label" >Email</label>
+            <input onChange={(e) => setEmail(e.target.value)} type="email" name="email" />
             <label className="Contact__Form--label">Message</label>
             <textarea onChange={(e) => setMessage(e.target.value)} name="text"></textarea>
             <button type="submit" onClick={handleSubmit}>Send Email</button>
